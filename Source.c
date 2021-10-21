@@ -5,7 +5,6 @@ void afisare_sir(int n, int sir[10]){
 	for (int i = 0; i < n; i++) {
 		printf("%d ", sir[i]);
 	}
-	printf("\n");
 }
 
 int main() {
@@ -38,10 +37,15 @@ int main() {
 	printf("\n");
 	// Afisarea vectorilor
 	afisare_sir(n, sir1);
+	printf(" - SIR 1\n");
 	afisare_sir(n, sir2);
+	printf(" - SIR 2\n");
 	afisare_sir(n, or);
+	printf(" - OR\n");
 	afisare_sir(n, and);
+	printf(" - AND \n");
 	afisare_sir(n, xor);
+	printf(" - XOR\n");
 
 	printf("\n\nPentru incheierea programului va rugam sa apasati orice tasta.");
 	getch();
